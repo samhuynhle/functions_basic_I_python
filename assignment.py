@@ -92,11 +92,140 @@
 #     return 7
 # print(a())
 
-# Define is function a, which has no defined parameters for teh function. Within function a, variable b is assigned the value of 100.
-# Fuction a will print the value of function b, then has conditionals with returns. The first conditional checks if b is less than 10, if True return the value of 5.
+# Defined is function a, which has no defined parameters for the function. Within function a, variable b is assigned the value of 100.
+# Fuction a will print the value of function b, then has an if conditional with a return and else with a return. The if conditional checks if b is less than 10, if True, return the value of 5.
 # If the first conditional was False, the else returns the value of 10. Addittionally, there is a return statement that returns the value of 7 after the conditionals (this
 # line of code will not be reached).
 # Function a is called within the print method. When called function a prints 100 and returns the value of 10. The print method prints function a, which has the value of 10.
 # Predicted outcome: 100, 10
 # Predicted outcome is correct.
 
+#9
+# def a(b,c):
+#     if b<c:
+#         return 7
+#     else:
+#         return 14
+#     return 3
+# print(a(2,3))
+# print(a(5,3))
+# print(a(2,3) + a(5,3))
+
+# Defined is function a, which has two defined parameters, b and c, for the function. Within function a, there is an if conditional.
+# The if conditional checks if the value of b is less than c, if True, then return the value of 7. If False, the else returns the value of 14.
+# There is an unreachable 'return 3' statement after the conditional.
+# Function a is call by the first print method once, which passes in the arguements of 2 and 3. Function a in this case has the value of 7.
+# Function a is called again by the second print method once, which passes in the arguements of 5 and 3. Funciton a in this case has the value of 14.
+# Function a is called twice by the third print mehtod, passing in the arguements of 2 and 3 and 5 adn 3. The values of 7 and 14 are retured. This print method
+# prints the result of the expression, which adds both values together.
+# Predicted outcome: 7, 14, 21
+# Predicted outcome is correct.
+
+#10
+# def a(b,c):
+#     return b+c
+#     return 10
+# print(a(3,5))
+
+# Defined is function a, which has two defined parameters, b and c, for the function. Wihtin function a, there are two return statements.
+# The first return statement returns the result of the expression 'b+c'. The second return statement returns the value of 10, but will not be reached.
+# Function a is called by the print method, which passes in two arguements, 3 and 5, into function a. The value of funcation a in this case is 8.
+# Predicted outcome: 8
+# Predicted outcome is correct.
+
+#11
+# b = 500
+# print(b)
+# def a():
+#     b = 300
+#     print(b)
+# print(b)
+# a()
+# print(b)
+
+# Variable b is assigned the value of 500. The print method prints the value of variable b.
+# Defined is funcation a, which has no defined parameters for the function. Within the scope of function a, variable b assigned the value of 300 and prints the value of b.
+# Variable b is printed by the print method again.
+# Function a is executed.
+# Variable b is printed by the print method again.
+# Predicted outcome: 500, 500, 300, 500
+# Predicted outcome is correct.
+
+#12
+# b = 500
+# print(b)
+# def a():
+#     b = 300
+#     print(b)
+#     return b
+# print(b)
+# a()
+# print(b)
+
+# Variable b is assigned the value of 500, this is in the global scope.
+# Variable b is printed by the print method.
+# Defined is function a, which has no defined parameters for the function. Within the scope of function a, variable b is assigned the value of 300, prints the value of b,
+# and returns the value of b.
+# Variable b is printed by the print method again.
+# Function a is executed.
+# Variable b is printed by the print method again.
+# Predicted outcome is: 500, 500, 300, 500
+# Predicted outcome is correct.
+
+#13
+# b = 500
+# print(b)
+# def a():
+#     b = 300
+#     print(b)
+#     return b
+# print(b)
+# b=a()
+# print(b)
+
+# Variable b is assigned the value of 500, this is in the global scope.
+# Variable b is printed by the print method.
+# Defined is function a, which has no defined parameters for the function. Within the scope of function a, variable b is assigned the value of 300, prints the value of b,
+# and returns the value of b.
+# Variable b is printed by the print method.
+# Variable b is reassigned to be the value of function a, which in is 300.
+# Variable is is printed by the print method again, but it's value been recently assigned to 300.
+# Predicted outcome: 500, 500, 300, 300
+# Predicted outcome is correct.
+
+#14
+# def a():
+#     print(1)
+#     b()
+#     print(2)
+# def b():
+#     print(3)
+# a()
+
+# Defined is function a, which has no defined parameters for the function. Within function a, the value of 1 is printed, then function b is called, and then the value of 2 is printed.
+# Defined is function b, which has no defined parameters for the function. Within function b, the value of 3 is printed.
+# Function a is called.
+# Predicted outcome: 1, 3, 2
+# Predicted outcome is correct.
+
+#15
+# def a():
+#     print(1)
+#     x = b()
+#     print(x)
+#     return 10
+# def b():
+#     print(3)
+#     return 5
+# y = a()
+# print(y)
+
+# Defined is function a, which has no defined parameters for the function.
+# Within function a, the value of 1 is printed, then the variable x is assigned to be the value of function b, then the value of x is printed, and then returned is the value of 10.
+# Defined is function b, which has no defined parameters for the function.
+# Within function b, the value of 3 is printed and then returned is the value of 5.
+# function a is called as the variable y is assigned the value of function a.
+# Predicted outcome: 1, 3, 5, 10
+# Predicted outcome is correct. When y was assigned to be the value of function a, function a printed 1, then called function b, whcih printed 3 and returned 5.
+# After 5 was returned, variable x was assigned the value of 5, which was printed. Then, function a returned the value of 10. Variable y was assigned the value of function a,
+# which was 10. The value of y was then printed the print method.

@@ -32,14 +32,16 @@
 # Predicted output: 5
 # Predicted output is correct.
 
-#4
-def a():
-    return 5
-    print(10)
-print(a())
+# #4
+# def a():
+#     return 5
+#     print(10)
+# print(a())
 
 # Defined is function a, which has no defined parameters for the function. Within function a, the code returns the value of 5 and prints the interger 10, but since
 # the first line of code in the function is 'return 5', the function will be completed immediately after 'return 5' is executed. 'print(10)' will not be reached 
 # and executed.
 # Function a is called within the print mehtod.
 # Predicted outcome: 5
+# Predicted outcome is correct.
+

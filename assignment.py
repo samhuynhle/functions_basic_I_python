@@ -65,7 +65,7 @@
 
 # Defined is function a, which has two defined parameters, b and c, for the function. Within function a, the code prints the result of the expression 'b+c'.
 # Fuction a has no return, so the value of the function will be None.
-# Function a is called by the print method twice. The first time passing in the arguements of 1 and 2; the second time passing in the arguements of 2 and 3.
+# Function a is called by the print method twice. The first time passing in the arguments of 1 and 2; the second time passing in the arguments of 2 and 3.
 # The values of the functions will be None, but the functions will run and execute the print methods within them.
 # Predicted outcome: 3, 5, None
 # Predicted outcome was correct for 3, 5. The terminal gave an error when the print method attempted to add None values together.
@@ -76,7 +76,7 @@
 # print(a(2,5))
 
 # Defined is function a, which has two defined parameters, b and c, for the function. Within function a, the code returns a concatentation of b and c as both strings.
-# Fuction a is called within the print method, which passed in 2 and 5 as arguements.
+# Fuction a is called within the print method, which passed in 2 and 5 as arguments.
 # Predicted outcome: 25
 # Predicted outcome is correct.
 # In this case, 25 is a string, not an integer.
@@ -114,9 +114,9 @@
 # Defined is function a, which has two defined parameters, b and c, for the function. Within function a, there is an if conditional.
 # The if conditional checks if the value of b is less than c, if True, then return the value of 7. If False, the else returns the value of 14.
 # There is an unreachable 'return 3' statement after the conditional.
-# Function a is call by the first print method once, which passes in the arguements of 2 and 3. Function a in this case has the value of 7.
-# Function a is called again by the second print method once, which passes in the arguements of 5 and 3. Funciton a in this case has the value of 14.
-# Function a is called twice by the third print mehtod, passing in the arguements of 2 and 3 and 5 adn 3. The values of 7 and 14 are retured. This print method
+# Function a is call by the first print method once, which passes in the arguments of 2 and 3. Function a in this case has the value of 7.
+# Function a is called again by the second print method once, which passes in the arguments of 5 and 3. Funciton a in this case has the value of 14.
+# Function a is called twice by the third print mehtod, passing in the arguments of 2 and 3 and 5 adn 3. The values of 7 and 14 are retured. This print method
 # prints the result of the expression, which adds both values together.
 # Predicted outcome: 7, 14, 21
 # Predicted outcome is correct.
@@ -129,7 +129,7 @@
 
 # Defined is function a, which has two defined parameters, b and c, for the function. Wihtin function a, there are two return statements.
 # The first return statement returns the result of the expression 'b+c'. The second return statement returns the value of 10, but will not be reached.
-# Function a is called by the print method, which passes in two arguements, 3 and 5, into function a. The value of funcation a in this case is 8.
+# Function a is called by the print method, which passes in two arguments, 3 and 5, into function a. The value of funcation a in this case is 8.
 # Predicted outcome: 8
 # Predicted outcome is correct.
 
